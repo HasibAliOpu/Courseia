@@ -57,7 +57,7 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <Link to="/" className="btn btn-ghost normal-case text-2xl">
+          <Link to="/" className=" btn btn-ghost normal-case text-2xl">
             Courseia
           </Link>
         </div>
