@@ -1,8 +1,8 @@
 import { faCheckCircle } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
-import student from "../../assets/student.jpg";
-import book from "../../assets/icons/book.png";
+import student from "../../../assets/student.jpg";
+import book from "../../../assets/icons/book.png";
 
 const AboutUs = () => {
   return (

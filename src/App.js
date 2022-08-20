@@ -1,19 +1,18 @@
 import "./App.css";
-import AboutUs from "./Components/AboutUs/AboutUs";
-import Banner from "./Components/Banner/Banner";
-import Courses from "./Components/Courses/Courses";
-import Footer from "./Components/Footer/Footer";
-import Navbar from "./Components/Navbar/Navbar";
-import Reviews from "./Components/Reviews/Reviews";
+import { Routes, Route } from "react-router-dom";
+import Footer from "./Components/Shared/Footer/Footer";
+import Home from "./Components/Home/Home/Home";
+import Navbar from "./Components/Shared/Navbar/Navbar";
+import Course from "./Components/Course/Course";
 
 function App() {
   return (
     <div className="font-dynaPuff">
       <Navbar />
-      <Banner />
-      <Courses />
-      <AboutUs />
-      <Reviews />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/course" element={<Course />} />
+      </Routes>
       <Footer />
     </div>
   );
