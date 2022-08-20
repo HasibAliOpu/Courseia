@@ -55,7 +55,7 @@ const AboutUs = () => {
         <div className=" bg-[#99FFCD] p-1">
           <img src={student} alt="student" className="-mt-8 pb-3 -ml-3" />
         </div>
-        <div className="absolute bottom-3 left-1 bg-yellow-300 w-36 p-3">
+        <div className="absolute bottom-3 left-1 bg-yellow-300 w-36 pl-6 py-3">
           <img src={book} alt="book" className="" />
           <h1 className="text-3xl">150 +</h1>
           <p>
