@@ -1,0 +1,30 @@
+[
+  {
+    "id": "1",
+    "name": "Web Design",
+    "price": "49.55",
+    "img": "https://www.dreamhost.com/blog/wp-content/uploads/2018/09/elements-web-design-opt.jpg",
+    "description": "Become a modern and confident HTML and CSS developer, no prior knowledge needed! Design and build a stunning real-world project for your portfolio from scratch Modern, semantic and accessible HTML5Modern CSS (previous CSS3), including flexbox and CSS Grid for layout Important CSS concepts such as the box model, positioning schemes, inheritance, solving selector conflicts, etc.A web design framework with easy-to-use rules and guidelines to design eye-catching websites"
+  },
+  {
+    "id": "2",
+    "name": "Web Development",
+    "price": "75.10",
+    "img": "https://i.pinimg.com/originals/b8/b7/fa/b8b7faa068cb612f21a7f7268313064b.png",
+    "description": "You will build 16 web development projects for your portfolio, ready to apply for junior developer jobs. You will learn the latest technologies, including Javascript, React, Node and even Web3 development. You will master both front and back-end development, becoming a full-stack developer by the end of the course. After the course you will be able to build ANY website you want. Build fully-fledged websites and web apps for your startup or business. Work as a freelance web developer. Master frontend development with React Master backend development with Node Learn professional developer best practices."
+  },
+  {
+    "id": "3",
+    "name": "Blockchain Developer",
+    "price": "79.03",
+    "img": "https://img.freepik.com/premium-vector/blockchain-developer-blockchain-based-applications-building-implementing-businesses-cryptocurrency-mining-technology-modern-virtual-currency-transaction-flat-vector-illustration_277904-16370.jpg",
+    "description": "Have a strong understanding of what blockchain technology is. Understand what Bitcoin is and how it works. Know and use key vocabulary and concepts commonly used when discussing blockchain and Bitcoin in business situations."
+  },
+  {
+    "id": "4",
+    "name": "App Developer",
+    "price": "49.70",
+    "img": "https://leverageedublog.s3.ap-south-1.amazonaws.com/blog/wp-content/uploads/2020/11/02235040/how-to-become-a-mobile-app-developer.png",
+    "description": "Apply for your dream job as an Android Developer, Build complex, production ready Java Android Applications, Build server based Android Applications with Paypal integration from scratch, Build a fantastic resume in order to show to employers, Create Professional Java Applications, Create Great Android Applications, Bring your own App Idea to Life, Master Java Programming Language"
+  }
+]
