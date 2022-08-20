@@ -2,11 +2,11 @@ import { faCheckCircle } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import student from "../../assets/student.jpg";
-import book from "../../assets/book.png";
+import book from "../../assets/icons/book.png";
 
 const AboutUs = () => {
   return (
-    <div className="grid grid-cols-2 gap-10 my-20 p-10">
+    <div id="about" className="grid grid-cols-2 gap-10 my-20 p-10">
       <div className="pt-10">
         <h1 className="text-6xl font-serif  font-extrabold whitespace-nowrap tracking-tight text-cyan-400">
           Learn anything,

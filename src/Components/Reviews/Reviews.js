@@ -39,7 +39,7 @@ const Reviews = () => {
       >
         {reviews.map((review) => (
           <SwiperSlide>
-            <div class="card shadow-2xl p-16 mx-32">
+            <div class="card shadow-2xl shadow-sky-200 p-16 mx-32 my-10 border-4 border-sky-200">
               <div class="card-body">
                 <h2 class="card-title">{review.name}</h2>
                 <p>

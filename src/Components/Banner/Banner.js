@@ -7,7 +7,7 @@ import bg from "../../assets/banner.jpg";
 const Banner = () => {
   return (
     <div>
-      <div className="p-10 relative">
+      <div id="#banner" className="p-10 relative">
         <img src={bg} alt="banner" className=" rounded-2xl" />
         <span className="absolute bottom-48 left-24 text-5xl text-white">
           <h1>

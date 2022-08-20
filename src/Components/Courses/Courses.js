@@ -10,7 +10,7 @@ const Courses = () => {
   }, []);
   console.log(courses);
   return (
-    <div className="my-10">
+    <div id="courses" className="my-10">
       <h1 className="text-6xl text-center">Trending Courses!</h1>
       <div className="grid grid-cols-2 gap-10 mx-10 p-20">
         {courses.map((course) => (
