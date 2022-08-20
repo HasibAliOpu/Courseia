@@ -11,8 +11,8 @@ const Footer = () => {
   return (
     <footer
       id="contact"
-      class="footer bg-slate-800 text-white py-40 px-20 font-sans font-semibold 
-      text-lg mt-20"
+      className="footer bg-slate-800 text-white py-40 px-20 font-sans font-semibold 
+      text-lg"
     >
       <div>
         <FontAwesomeIcon icon={faLocationDot} className="text-4xl" />
@@ -23,34 +23,34 @@ const Footer = () => {
         </p>
       </div>
       <div>
-        <span class="footer-title uppercase">Send message</span>
-        <a class="link link-hover">
+        <span className="footer-title uppercase">Send message</span>
+        <a className="link link-hover">
           <FontAwesomeIcon icon={faPhone} /> +123 456 789
         </a>
-        <a class="link link-hover">
+        <a className="link link-hover">
           <FontAwesomeIcon icon={faMailBulk} /> mail.@courseia.io
         </a>
       </div>
       <div>
-        <span class="footer-title uppercase">pages</span>
-        <a href="#" class="link link-hover">
+        <span className="footer-title uppercase">pages</span>
+        <a href="#" className="link link-hover">
           Home
         </a>
-        <a href="#courses" class="link link-hover">
+        <a href="#courses" className="link link-hover">
           Courses
         </a>
-        <a href="#about" class="link link-hover">
+        <a href="#about" className="link link-hover">
           About us
         </a>
-        <a href="#contact" class="link link-hover">
+        <a href="#contact" className="link link-hover">
           Contact us
         </a>
       </div>
       <div>
-        <span class="footer-title">Legal</span>
-        <a class="link link-hover">Terms of use</a>
-        <a class="link link-hover">Privacy policy</a>
-        <a class="link link-hover">Cookie policy</a>
+        <span className="footer-title">Legal</span>
+        <a className="link link-hover">Terms of use</a>
+        <a className="link link-hover">Privacy policy</a>
+        <a className="link link-hover">Cookie policy</a>
       </div>
     </footer>
   );

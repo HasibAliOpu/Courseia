@@ -8,7 +8,7 @@ const Courses = () => {
       .then((res) => res.json())
       .then((data) => setCourses(data));
   }, []);
-  console.log(courses);
+
   return (
     <div id="courses" className="my-10">
       <h1 className="text-6xl text-center">Trending Courses!</h1>
