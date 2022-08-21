@@ -6,9 +6,12 @@ import book from "../../../assets/icons/book.png";
 
 const AboutUs = () => {
   return (
-    <div id="about" className="grid grid-cols-2 gap-10 my-20 p-10">
+    <div
+      id="about"
+      className="grid grid-cols-1 lg:grid-cols-2 gap-10 my-20 p-10"
+    >
       <div className="pt-10">
-        <h1 className="text-6xl font-serif  font-extrabold whitespace-nowrap tracking-tight text-cyan-400">
+        <h1 className="text-4xl lg:text-6xl font-serif  font-extrabold whitespace-nowrap tracking-tight text-cyan-400">
           Learn anything,
           <br />
           anytime, anywhere...
