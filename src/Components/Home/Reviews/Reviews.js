@@ -12,7 +12,7 @@ import { faStar } from "@fortawesome/free-solid-svg-icons";
 const Reviews = () => {
   const [reviews, setReviews] = useState([]);
   useEffect(() => {
-    fetch("Reviews.json")
+    fetch("https://cryptic-thicket-00710.herokuapp.com/reviews")
       .then((res) => res.json())
       .then((data) => setReviews(data));
   }, []);
@@ -38,7 +38,7 @@ const Reviews = () => {
         className="mySwiper"
       >
         {reviews.map((review) => (
-          <SwiperSlide key={review.id}>
+          <SwiperSlide key={review._id}>
             <div className="card shadow-2xl shadow-sky-200 p-16 mx-32 my-10 border-4 border-sky-200">
               <div className="card-body">
                 <h2 className="card-title">{review.name}</h2>

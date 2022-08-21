@@ -15,7 +15,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route
-          path="/course"
+          path="/course/:courseId"
           element={
             <RequireAuth>
               <Course />

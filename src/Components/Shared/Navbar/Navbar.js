@@ -31,41 +31,45 @@ const Navbar = () => {
             className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
-              <Link to={"/"}>Item 1</Link>
-            </li>
-            <li tabIndex="0">
-              <Link to={"/"} className="justify-between">
-                Parent
-                <svg
-                  className="fill-current"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
-                </svg>
-              </Link>
-              <ul className="p-2">
-                <li>
-                  <Link to={"/"}>Submenu 1</Link>
-                </li>
-                <li>
-                  <Link to={"/"}>Submenu 2</Link>
-                </li>
-              </ul>
+              <Link to={"/"}>Home</Link>
             </li>
             <li>
-              <Link to={"/"}>Item 3</Link>
+              <a href={"#courses"}>Courses</a>
+            </li>
+            <li>
+              <a href={"#about"}>About Us</a>
+            </li>
+            <li>
+              <a href={"#contact"}>Contact Us</a>
+            </li>
+            <li>
+              {user ? (
+                <button
+                  onClick={() => signOut(auth)}
+                  className="font-bold text-error"
+                >
+                  LogOut
+                </button>
+              ) : (
+                <Link to="/Login">Login</Link>
+              )}
+            </li>
+            <li>
+              <span className="text-purple-500">
+                {user ? user?.displayName : ""}
+              </span>
             </li>
           </ul>
         </div>
-        <Link to="/" className=" btn btn-ghost normal-case text-2xl">
+        <Link
+          to="/"
+          className="btn btn-ghost normal-case text-2xl hidden lg:block"
+        >
           Courseia
         </Link>
       </div>
 
-      <div className="navbar-end">
+      <div className="navbar-end hidden lg:block">
         <ul className="menu menu-horizontal p-0">
           <li>
             <Link to={"/"}>Home</Link>
