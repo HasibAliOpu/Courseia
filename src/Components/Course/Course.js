@@ -24,8 +24,8 @@ const Course = () => {
 
   return (
     <div className="bg-warning">
-      <div className="p-20">
-        <div className="card lg:card-side bg-white shadow-2xl mx-10">
+      <div className="p-10 lg:p-20">
+        <div className="card lg:card-side bg-white shadow-2xl mx-5 lg:mx-10">
           <figure>
             <img src={course.img} alt="Album" className="w-[550px]" />
           </figure>

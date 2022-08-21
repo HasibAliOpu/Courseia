@@ -11,7 +11,7 @@ const AboutUs = () => {
       className="grid grid-cols-1 lg:grid-cols-2 gap-10 my-20 p-10"
     >
       <div className="pt-10">
-        <h1 className="text-4xl lg:text-6xl font-serif  font-extrabold whitespace-nowrap tracking-tight text-cyan-400">
+        <h1 className="text-2xl lg:text-6xl font-serif  font-extrabold whitespace-nowrap tracking-tight text-cyan-400">
           Learn anything,
           <br />
           anytime, anywhere...
@@ -58,10 +58,10 @@ const AboutUs = () => {
         <div className=" bg-[#99FFCD] p-1">
           <img src={student} alt="student" className="-mt-8 pb-3 -ml-3" />
         </div>
-        <div className="absolute bottom-3 left-1 bg-yellow-300 w-36 pl-6 py-3">
-          <img src={book} alt="book" className="" />
-          <h1 className="text-3xl">150 +</h1>
-          <p>
+        <div className="absolute bottom-3 left-1 bg-yellow-300 lg:w-36 pl-2 lg:pl-6 py-3">
+          <img src={book} alt="book" className="w-1/4" />
+          <h1 className="text-sm lg:text-3xl">150 +</h1>
+          <p className="text-sm lg:text-base">
             <small>Active Courses</small>
           </p>
         </div>

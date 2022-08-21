@@ -53,8 +53,8 @@ const Register = () => {
   }
   return (
     <div className="bg-sky-300 p-5">
-      <div className="w-2/4 mx-auto">
-        <h3 className="py-4 text-xl lg:text-4xl  text-white text-center">
+      <div className=" lg:w-2/4 mx-auto">
+        <h3 className="py-4 text-4xl lg:text-5xl  text-white text-center">
           Register Now!
         </h3>
         <div className="lg:px-20 pt-6 mx-6 mb-4">

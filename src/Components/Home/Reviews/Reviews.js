@@ -17,10 +17,8 @@ const Reviews = () => {
       .then((data) => setReviews(data));
   }, []);
   return (
-    <div className="mx-20 my-10">
-      <h1 className="text-4xl fontserif font-bold pb-5">
-        - What Students said
-      </h1>
+    <div className="mx-10 lg:mx-20 my-10">
+      <h1 className="text-2xl lg:text-4xl font-bold pb-5">- What they said</h1>
       <Swiper
         effect={"coverflow"}
         grabCursor={true}
@@ -39,7 +37,7 @@ const Reviews = () => {
       >
         {reviews.map((review) => (
           <SwiperSlide key={review._id}>
-            <div className="card shadow-2xl shadow-sky-200 p-16 mx-32 my-10 border-4 border-sky-200">
+            <div className="card shadow-2xl shadow-sky-200 p-6 lg:p-16 lg:mx-32 my-10 border-4 border-sky-200">
               <div className="card-body">
                 <h2 className="card-title">{review.name}</h2>
                 <p>

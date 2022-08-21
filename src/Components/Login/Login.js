@@ -52,14 +52,14 @@ const Login = () => {
   return (
     <div>
       <div className="bg-amber-300">
-        <div className="flex items-center h-screen w-full max-w-md px-6 mx-auto lg:w-2/6">
+        <div className="flex items-center justify-center h-screen w-full px-6 mx-auto">
           <div>
             <div className="text-center">
               <h2 className="text-4xl font-bold text-center text-gray-700">
                 Courseia
               </h2>
 
-              <p className="mt-3">Log in to access your account</p>
+              <p className="mt-3">Log in to access your Courses!</p>
             </div>
 
             <div className="mt-8">
