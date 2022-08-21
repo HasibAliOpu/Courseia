@@ -59,7 +59,7 @@ const AboutUs = () => {
           <img src={student} alt="student" className="-mt-8 pb-3 -ml-3" />
         </div>
         <div className="absolute bottom-3 left-1 bg-yellow-300 lg:w-36 pl-2 lg:pl-6 py-3">
-          <img src={book} alt="book" className="w-1/4" />
+          <img src={book} alt="book" className="w-1/4 lg:w-auto" />
           <h1 className="text-sm lg:text-3xl">150 +</h1>
           <p className="text-sm lg:text-base">
             <small>Active Courses</small>
