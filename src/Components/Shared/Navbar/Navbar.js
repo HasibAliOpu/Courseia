@@ -69,7 +69,7 @@ const Navbar = () => {
         </Link>
       </div>
 
-      <div className="navbar-end hidden lg:block">
+      <div className="navbar-end hidden pl-12 lg:block">
         <ul className="menu menu-horizontal">
           <li>
             <Link to={"/"}>Home</Link>
