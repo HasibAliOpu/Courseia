@@ -40,11 +40,11 @@ const Reviews = () => {
             <div className="card shadow-2xl shadow-sky-200 p-6 lg:p-16 lg:mx-32 my-10 border-4 border-sky-200">
               <div className="card-body">
                 <h2 className="card-title">{review.name}</h2>
-                <p>
+                <p className="font-mono font-bold text-lg">
                   Rating: {review.rating}{" "}
                   <FontAwesomeIcon className="text-warning" icon={faStar} />{" "}
                 </p>
-                <p>{review.text}</p>
+                <p className="font-aboreto tracking-wide">{review.text}</p>
               </div>
             </div>
           </SwiperSlide>

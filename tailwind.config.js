@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         dynaPuff: ["DynaPuff, cursive"],
+        aboreto: ["Aboreto, cursive"],
       },
     },
   },

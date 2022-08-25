@@ -1,7 +1,7 @@
 import React from "react";
 import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Link as a } from "react-router-dom";
+
 import bg from "../../../assets/banner.jpg";
 
 const Banner = () => {

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar, faPlay } from "@fortawesome/free-solid-svg-icons";
-import CustomToast from "../Modal/CustomToast";
+
 import Swal from "sweetalert2";
 
 const Course = () => {
